@@ -10,8 +10,8 @@
 
 		<el-row>
 			<el-col :span="8">
-				<span class="middle">当前用户：</span>
 				<el-avatar :size="50" :src="userInfo.avatar_url">User</el-avatar>
+				<span class="middle">Git用户：</span>
 				<span class="middle">{{ userInfo.login }}</span>
 			</el-col>
 		</el-row>
@@ -19,7 +19,7 @@
 		<el-row>
 			<el-col :span="8">
 				<el-button type="primary" size="medium" icon="el-icon-check" :disabled="isSave" @click="saveUser(true)">保存配置</el-button>
-				<el-button type="info" size="medium" icon="el-icon-close" @click="saveUser(false)">清除配置</el-button>
+				<el-button type="info" size="medium" icon="el-icon-close" @click="saveUser(false)">清 空</el-button>
 			</el-col>
 		</el-row>
 	</div>

@@ -3,13 +3,13 @@ module.exports = {
 	 * @type {string}
 	 * @description page title
 	 */
-	title: 'Picture Hosting',
+	title: 'My Admin',
 
 	/**
 	 * @type {string}
 	 * @description logo URL
 	 */
-	logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png',
+	logo: 'https://raw.githubusercontent.com/nie-0401/image_storage/master/2f295d2b-bc54-473e-b1b8-fe20c4874c72.png',
 
 	/**
 	 * @type {boolean} true | false
@@ -27,5 +27,5 @@ module.exports = {
 	 * @type {Array}
 	 * @description 默认展开的父级菜单
 	 */
-	defaultOpeneds: ['/pictureHosting']
+	// defaultOpeneds: ['/pictureHosting']
 }

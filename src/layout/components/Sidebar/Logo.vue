@@ -55,6 +55,8 @@
 			width: 100%;
 
 			& .sidebar-logo {
+				border-radius: 50%;
+				object-fit: cover;
 				width: 32px;
 				height: 32px;
 				vertical-align: middle;

@@ -21,7 +21,7 @@ const routes = [
 				path: 'dashboard',
 				name: 'Dashboard',
 				component: () => import('@/views/dashboard/index'),
-				meta: {title: 'Dashboard', icon: 'dashboard'}
+				meta: {title: 'My-Admin', icon: 'dashboard'}
 			}
 		]
 	},
@@ -30,7 +30,7 @@ const routes = [
 		component: Layout,
 		redirect: '/pictureHosting/setting',
 		name: 'PictureHosting',
-		meta: {title: '图床', icon: 'el-icon-picture'},
+		meta: {title: 'Git 图床', icon: 'el-icon-picture'},
 		children: [
 			{
 				path: 'setting',
@@ -43,12 +43,6 @@ const routes = [
 				name: 'Manage',
 				component: () => import('@/views/Manage'),
 				meta: {title: '管理', icon: 'el-icon-folder-opened'}
-			},
-			{
-				path: 'help',
-				name: 'Help',
-				component: () => import('@/views/Help'),
-				meta: {title: '教程', icon: 'el-icon-s-opportunity'}
 			},
 		]
 	},
